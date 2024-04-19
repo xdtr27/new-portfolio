@@ -1,6 +1,10 @@
-import { twMerge } from "tailwind-merge";
 
-export default function Input({ type, className, placeholder }) {
+
+
+
+export default function Input({ type, placeholder }) {
+  
+  
   return (
     <input
       type={type}

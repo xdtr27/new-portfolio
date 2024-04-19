@@ -6,7 +6,7 @@ import ButtonTop from "./ButtonTop";
 
 export default function Main() {
   return (
-    <main>
+    <main> 
       <Home />
       <Projetos />
       <Sobre />

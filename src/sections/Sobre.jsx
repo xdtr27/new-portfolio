@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import Divider from "../components/Divider";
-import TechCard from "../components/TechCard";
 import { SizeContext } from "../contexts/SizeContext";
 
 export default function Sobre() {
@@ -26,9 +25,9 @@ export default function Sobre() {
             soluções criativas e de alta qualidade.
           </p>
           <div className="bg-gray-800 dark:bg-zinc-300 rounded-md p-5 w-full min-w-[250px]">
-            <h3 className="text-indigo-500">Engenharia de Software</h3>
+            <h3 className="text-indigo-600 font-semibold">Engenharia de Software</h3>
             <small className="text-zinc-100 dark:text-zinc-800">UNESA | 02.2022 - 01.2026</small>
-            <p className="text-zinc-100 dark:text-zinc-800">Em andamento</p>
+            <p className="text-zinc-100 dark:text-zinc-800 font-semibold">Em andamento</p>
           </div>
         </div>
       </section>

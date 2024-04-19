@@ -7,7 +7,15 @@
   --webkit-font-smoothing: antialiased;
 }
 
-body {
-  
+
+html {
+  background-color: black;
+
+}
+html.dark {
+  background-color: rgb(244 244 245);
 }
 
+body.lock {
+  overflow: hidden;
+}

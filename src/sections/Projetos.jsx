@@ -31,6 +31,7 @@ const projetos2 = [
 export default function Projetos() {
   const { size } = useContext(SizeContext);
 
+
   return (
     <>
       <section id="projects" className="my-28 px-6 sm:px-10 lg:px-48">

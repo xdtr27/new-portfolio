@@ -1,6 +1,10 @@
 import Button from "../components/Button";
 import Divider from "../components/Divider";
 export default function Home() {
+  
+  
+  
+  
   return (
     <>
       <section id="home" className=" flex flex-col relative gap-6 text-zinc-100 dark:text-zinc-800 my-32 px-6 sm:px-10 md:px-48 text-center lg:text-start">
